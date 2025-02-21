@@ -23,8 +23,9 @@ Follow these steps to set up your environment and test your changes effectively:
 npm i
 ```
 
-### 2️⃣ Start a Local Blockchain (Using Hardhat) 
+### 2️⃣ Start a Local Blockchain & Compile Smart Contracts (Using Hardhat) 
 ```bash
+npx hardhat compile
 npx hardhat node
 ```
 This will launch a local blockchain, simulating a real Ethereum network.
